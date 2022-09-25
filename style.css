@@ -112,7 +112,6 @@ footer {
         flex-direction: row;
         width: 960px;
 	font-size: 20px;
-    margin: auto;
     text-align: left;
     background-color: aqua;
     border-bottom: 20px solid white;
