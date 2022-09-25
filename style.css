@@ -1,0 +1,128 @@
+.wrapper {
+    text-align: left;
+}
+.hyperlinks {
+  	display:flex;
+		flex-direction: column;
+    text-align: left;
+    background-color: lightcyan;
+    border-bottom: 10px solid white;
+    margin: auto;
+}
+.tabletask{
+		order: 1;
+}
+.tabletask {
+		dispaly: flex;
+		flex-direction: column;
+    width:100%;
+    font-size:25px;
+    font-family: sans-serif;
+    font-style:normal;
+    border:3px solid black;
+    border-collapse: collapse;
+    background-color: thistle;
+  }
+  tbody tr:nth-child(odd) {
+    background-color:mediumstateblue;/* фон нечетных строк */
+  }
+
+  tbody tr:nth-child(even) {
+
+    background-color:blueviolet;/* фон четных строк */
+
+  }
+  th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+header {
+    text-align: center;
+    letter-spacing: 1px;
+    background: cadetblue;
+    color: black;
+}
+.logo {
+    width: 55px;
+    float: left;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 50px;
+    color: darkkhaki;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+    max-width: 100%;
+    background-color: aqua;
+    border-bottom: 20px solid white;
+    display: flex;
+		flex-direction: column;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.menu a {
+    color: black;
+		border-right: 10px;
+}
+.content {
+		display: flex;
+		flex-flow: nowrap column;
+    max-width: 100%;
+    text-align: left;
+    margin: auto;
+}
+form {
+		dispaly: flex;
+		flex-direction: column;
+    border-top: 10px solid white;
+    background-color: tan;
+    color: black;
+}
+footer {
+    font-size: 20px;
+    background-color: linen;
+    text-align: left;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .tabletask {
+        max-width: 960px;
+        order: 0;
+    }
+    .tabletask th {
+        font-size: medium;
+    }
+    .tabletask td {
+        font-size: medium;
+    }
+    .menu {
+        flex-direction: row;
+        max-width: 960px;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .content {
+        max-width: 960px;
+    }
+    .logo {
+    width: 128px;
+    float: left;
+    margin-bottom: 0px;
+    text-align: left;
+    }
+}
