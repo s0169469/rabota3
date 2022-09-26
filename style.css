@@ -65,11 +65,8 @@ a {
     	background-color: aqua;
     	border-bottom: 20px solid white;
     	display: flex;
-	flex-direction: column;
-    	flex-flow: row nowrap;
-    	align-items: center;
-    	justify-content: space-between;
-    	align-content: space-between;
+	flex-direction: row;
+    	
 }
 .menu a {
     	color: black;
@@ -108,7 +105,7 @@ footer {
     }
     .menu {
 	    
-        flex-direction:row;
+        flex-direction:column;
         width: 960px;
 	font-size: 20px;
     	text-align: left;
