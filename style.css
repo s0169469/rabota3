@@ -121,6 +121,8 @@ footer {
 	    dispaly: inline;
 	    flex-direction: row;
     }
+    #ul li{
+	    display: inline;
     h1, h2 {
         text-align: center;
         font-size: 50px;
