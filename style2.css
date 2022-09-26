@@ -84,6 +84,17 @@ footer {
 @media screen and (min-width: 768px){
     #ul li{
         display: inline;
+        font-size: 20px;
+        margin: auto;
+        text-align: left;
+        max-width: 960px;
+        background-color: aqua;
+        border-bottom: 20px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
     }
     .menu{
         font-size: 20px;
