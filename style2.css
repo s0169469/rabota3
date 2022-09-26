@@ -9,7 +9,7 @@
 }
 .tabletask {
     width:100%;
-    font-size:25px;
+    font-size:12px;
     font-family: sans-serif;
     font-style:normal;
     border:3px solid black;
@@ -56,20 +56,16 @@ a {
     font-size: 20px;
     margin: auto;
     text-align: left;
-    max-width: 960px;
+    max-width:100%;
     background-color: aqua;
     border-bottom: 20px solid white;
-     display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    align-content: space-between;
+    
 }
 .menu a {
     color: black;
 }
 .content {
-    max-width: 960px;
+    width: 100%;
     text-align: left;
     margin: auto;
 }
@@ -77,10 +73,36 @@ form {
     border-top: 10px solid white;
     background-color: tan;
     color: black;
+    order: 1;
 }
 footer {
     font-size: 20px;
     background-color: linen;
     text-align: left;
     width: 100%;
+}
+@media screen and (min-width: 768px){
+    #ul li{
+        display: inline;
+    }
+    .menu{
+        font-size: 20px;
+        margin: auto;
+        text-align: left;
+        max-width: 960px;
+        background-color: aqua;
+        border-bottom: 20px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .tabletask{
+        font-size: 25px;
+        max-width: 960px;
+    }
+    content{
+        max-width: 960px;
+    }
 }
