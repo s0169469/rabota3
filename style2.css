@@ -83,7 +83,7 @@ footer {
 }
 @media screen and (min-width: 768px){
     #ul li{
-        display: inline;
+        display: inline-block;
         
     }
     .wrapper {
@@ -153,6 +153,9 @@ a {
     justify-content: space-between;
     align-content: space-between;
 }
+.menu.max{
+    flex:1;
+    }
 .menu a {
     color: black;
 }
