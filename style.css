@@ -105,7 +105,7 @@ footer {
     }
     .menu {
 	    
-        flex-direction:column;
+        flex-direction:row;
         width: 960px;
 	font-size: 20px;
     	text-align: left;
