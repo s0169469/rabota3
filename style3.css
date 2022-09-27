@@ -2,16 +2,14 @@
     text-align: left;
 }
 .hyperlinks {
-    order:1;
     text-align: left;
     background-color: lightcyan;
     border-bottom: 10px solid white;
     margin: auto;
 }
 .tabletask {
-    order: 3;
     width:100%;
-    font-size:25px;
+    font-size:14px;
     font-family: sans-serif;
     font-style:normal;
     border:3px solid black;
@@ -56,6 +54,10 @@ a {
 }
 .menu {
     flex-direction: column;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: aqua;
+    border-bottom: 20px solid white;
 }
 .menu a {
     color: black;
@@ -66,7 +68,7 @@ a {
     margin: auto;
 }
 form {
-    order: 2;
+    order: 1;
     border-top: 10px solid white;
     background-color: tan;
     color: black;
@@ -80,6 +82,7 @@ footer {
 @media screen and (min-width: 768px){
   .tabletask{
     order: 3;
+    font-size:25px;
   }
   .hyperlinks{
     order: 1;
