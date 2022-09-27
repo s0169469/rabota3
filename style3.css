@@ -81,7 +81,21 @@ footer {
     text-align: left;
     width: 100%;
 }
+.ft {
+    display: flex;
+    flex-direction: column;
+}
+
+.ft > .f {order: 1; } 
+.ft > .t {order: 2; } 
 @media screen and (min-width: 768px){
+  .ft {
+    display: flex;
+    flex-direction: column;
+   }
+
+  .ft > .f {order: 2; } 
+  .ft > .t {order: 1; }
   .tabletask{
     order: 0;
     font-size:25px;
